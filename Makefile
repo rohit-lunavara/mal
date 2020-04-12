@@ -1,4 +1,7 @@
 # Usage/help
+IMPLS = ... cpp ...
+cpp_STEP_TO_PROG = cpp/$($(1)).cpp
+
 all help:
 	@echo
 	@echo 'USAGE:'
